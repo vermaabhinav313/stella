@@ -189,7 +189,7 @@ Get information about anime, manga or characters with the help of this module! A
  - /manga <manga>: returns information about the manga.
  - /upcoming: returns a list of new anime in the upcoming seasons.
 
- Module credit: swada
+ Module credit:  Saitama
  """
 
 __mod_name__ = "Anime"
