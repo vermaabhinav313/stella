@@ -15,7 +15,7 @@ Can be found on telegram as [Stella](https:telegram.dog/MissStella_bot)
 ### Setting up the stella
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older python versions! This is because markdown parsing is done by iterating through a dict, which are ordered by default in 3.6.
 
-##Configuration
+## Configuration
 Remove this line first before doing anything else
 `___________PLOX_______REMOVE_____THIS_____LINE__________=True`
 # Required
