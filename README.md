@@ -17,6 +17,7 @@ Please make sure to use python3.6, as I cannot guarantee everything will work as
 
 ## Configuration
 Remove this line first before doing anything else
+
 `___________PLOX_______REMOVE_____THIS_____LINE__________=True`
 # Required
 - `API_KEY`: Your bot token.
