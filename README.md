@@ -32,7 +32,7 @@ Remove this line first before doing anything else
 
 - `MESSAGE_DUMP`: Needed to make sure 'save from' messages persist.
 
-- `GBAN_LOGS`: Needed for /gban users logs.
+- `GBAN_LOGS`: Needed for `/gban` users logs.
 
 - `SUDO_USERS`: List of id's -  (not usernames) for users. eg. `[604968079, 802002142]`
 
