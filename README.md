@@ -19,15 +19,25 @@ Remove this line first before doing anything else
 `___________PLOX_______REMOVE_____THIS_____LINE__________=True`
 # Required
 -`API_KEY`: Your bot token.
+
 -`DEV_USERS`: List of id's - (not usernames) for developers who will have the same perms as the owner
+
 -`OWNER_ID`: Bot owner id if you dont know, run the bot and do /id in your private chat with it.
+
 -`OWNER_USERNAME`: Bot owner username. eg.`meanii`
+
 -`SQLALCHEMY_DATABASE_URI`: Needed for any database modules eg. `postgres://meanii:6969@127.0.0.1:5432/meaniidb`
+
 -`MESSAGE_DUMP`: Needed to make sure 'save from' messages persist.
+
 -`GBAN_LOGS`: Needed for /gban users logs.
--`SUDO_USERS`: List of id's -  (not usernames) for users. eg. `[604968079, 802002142,458802161, 287534470, 533075891,276043724,373322191, 239508098, 680240877,882941685]`
+
+-`SUDO_USERS`: List of id's -  (not usernames) for users. eg. `[604968079, 802002142]`
+
 -`SUPPORT_USERS`: List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+
 -`WHITELIST_USERS`: List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+
 -`DEL_CMDS`: Whether or not you should delete "blue text must click" commands.
 
 
