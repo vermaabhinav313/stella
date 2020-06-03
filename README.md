@@ -11,13 +11,13 @@
 Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and simple to use.
 Can be found on telegram as [Stella](https:telegram.dog/MissStella_bot)
 
-###Setting up the stella
+### Setting up the stella
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older python versions! This is because markdown parsing is done by iterating through a dict, which are ordered by default in 3.6.
 
 ##Configuration
 Remove this line first before doing anything else
 `___________PLOX_______REMOVE_____THIS_____LINE__________=True`
-#Required
+# Required
 -`API_KEY`: Your bot token.
 -`DEV_USERS`: List of id's - (not usernames) for developers who will have the same perms as the owner
 -`OWNER_ID`: Bot owner id if you dont know, run the bot and do /id in your private chat with it.
@@ -80,6 +80,6 @@ You should now be able to build your database URI. This will be:
 Replace sqldbtype with whichever db youre using (eg postgres, mysql, sqllite, etc)
 repeat for your username, password, hostname (localhost?), port (5432?), and db name.
 
-###Credits:
+### Credits:
 [@SonOfLars](https://github.com/PaulSonOfLars) (Marie's creator)
 [@SaitamaRobot](https://github.com/AnimeKaizoku) (for anime module) 
