@@ -18,27 +18,27 @@ Please make sure to use python3.6, as I cannot guarantee everything will work as
 Remove this line first before doing anything else
 `___________PLOX_______REMOVE_____THIS_____LINE__________=True`
 # Required
--`API_KEY`: Your bot token.
+- `API_KEY`: Your bot token.
 
--`DEV_USERS`: List of id's - (not usernames) for developers who will have the same perms as the owner
+- `DEV_USERS`: List of id's - (not usernames) for developers who will have the same perms as the owner
 
--`OWNER_ID`: Bot owner id if you dont know, run the bot and do /id in your private chat with it.
+- `OWNER_ID`: Bot owner id if you dont know, run the bot and do /id in your private chat with it.
 
--`OWNER_USERNAME`: Bot owner username. eg.`meanii`
+- `OWNER_USERNAME`: Bot owner username. eg.`meanii`
 
--`SQLALCHEMY_DATABASE_URI`: Needed for any database modules eg. `postgres://meanii:6969@127.0.0.1:5432/meaniidb`
+- `SQLALCHEMY_DATABASE_URI`: Needed for any database modules eg. `postgres://meanii:6969@127.0.0.1:5432/meaniidb`
 
--`MESSAGE_DUMP`: Needed to make sure 'save from' messages persist.
+- `MESSAGE_DUMP`: Needed to make sure 'save from' messages persist.
 
--`GBAN_LOGS`: Needed for /gban users logs.
+- `GBAN_LOGS`: Needed for /gban users logs.
 
--`SUDO_USERS`: List of id's -  (not usernames) for users. eg. `[604968079, 802002142]`
+- `SUDO_USERS`: List of id's -  (not usernames) for users. eg. `[604968079, 802002142]`
 
--`SUPPORT_USERS`: List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+- `SUPPORT_USERS`: List of id's (not usernames) for users which are allowed to gban, but can also be banned.
 
--`WHITELIST_USERS`: List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+- `WHITELIST_USERS`: List of id's (not usernames) for users which WONT be banned/kicked by the bot.
 
--`DEL_CMDS`: Whether or not you should delete "blue text must click" commands.
+- `DEL_CMDS`: Whether or not you should delete "blue text must click" commands.
 
 
 ### Python dependencies
