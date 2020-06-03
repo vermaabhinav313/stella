@@ -134,7 +134,7 @@ def new_member(bot: Bot, update: Update):
                 continue
             # Give the sudos/support a special welcome too
             elif new_mem.id in SUDO_USERS or new_mem.id in SUPPORT_USERS:
-                update.effective_message.reply_text("{name} just join your chat.")
+                update.effective_message.reply_text("{first} has joined your chat")
                 continue
             # Make bot greet admins
             elif new_mem.id == bot.id:
