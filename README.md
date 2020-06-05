@@ -95,3 +95,5 @@ repeat for your username, password, hostname (localhost?), port (5432?), and db 
 ### Credits:
 [@SonOfLars](https://github.com/PaulSonOfLars) (Marie's creator)
 [@SaitamaRobot](https://github.com/AnimeKaizoku) (for anime module) 
+[@corsicanu](https://github.com/corsicanu) (for welcome module)
+[@MrYacha](https://github.com/MrYacha) (for Feds module)
