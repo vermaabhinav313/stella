@@ -126,15 +126,13 @@ def bl_users(bot: Bot, update: Update):
 def __user_info__(user_id):
     is_blacklisted = sql.is_user_blacklisted(user_id)
 
-    text = "Blacklisted: <b>{}</b>"
+    text = ""
 
     if is_blacklisted:
-        text = text.format("Yes")
+        text += "This user is Blacklisted"
         reason = sql.get_reason(user_id)
         if reason:
             text += f"\nReason: <code>{reason}</code>"
-    else:
-        text = text.format("No")
 
     return text
 
