@@ -94,15 +94,10 @@ def gkick(bot: Bot, update: Update, args: List[str]):
 
 def __user_info__(user_id):
     times = sql.get_times(user_id)
-    
-    if int(user_id) in SUDO_USERS or int(user_id) in SUPPORT_USERS:
-        text="Globally kicked: <b>No</b> (Immortal)"
+    if times!=0:
+            text = text.format("<b>I've kicked this person globally {} times!)".format(times))
     else:
-        text = "Globally kicked: {}"
-        if times!=0:
-            text = text.format("<b>Yes</b> (Times: {})".format(times))
-        else:
-            text = text.format("<b>No</b>")
+            text = ""
     return text
 
 @run_async
